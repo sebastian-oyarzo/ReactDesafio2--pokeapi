@@ -1,0 +1,34 @@
+.seleccionado {
+    color: #ff1c1c;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.noSeleccionado {
+    text-decoration: none;
+    color: inherit;
+    padding: 0px 5px;
+}
+
+.Navdar {
+    background-color: #58585a;
+    color: #dadde0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+}
+
+.imgIcon {
+    width: 40px;
+    filter: invert(2%) sepia(50%) saturate(40%) hue-rotate(357deg) brightness(107%) contrast(60%);
+}
+
+.Home {
+    padding: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
