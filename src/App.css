@@ -1,3 +1,4 @@
+/* referente al navdar: */
 .seleccionado {
     color: #ff1c1c;
     text-decoration: none;
@@ -25,10 +26,49 @@
     filter: invert(2%) sepia(50%) saturate(40%) hue-rotate(357deg) brightness(107%) contrast(60%);
 }
 
-.Home {
+/* para todas las views: */
+.Main {
     padding: 5%;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+/* referente a la view de pokemones: */
+.select {
+    margin-top: 10px;
+    padding: 5px 30px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+/* referente a la view de .pokemonSeleccionado: */
+.pokemonSeleccionado {
+    padding: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: #cacaca solid 1px;
+    border-radius: 5px;
+    margin: 3% 20%;
+}
+
+.imgPoke {
+    margin: 10%;
+    max-width: 200px;
+}
+
+.stats {
+    margin: 10px 0px;
+}
+
+.cargando {
+    font-size: 20px;
 }
